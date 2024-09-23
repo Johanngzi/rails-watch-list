@@ -15,6 +15,8 @@ require "action_cable/engine"
 # require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
+require "simple_form"
+
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
