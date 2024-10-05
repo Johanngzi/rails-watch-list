@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 ruby "3.1.2"
 # gem "3.3.22"
+gem 'ffi', '~> 1.17.0'
+
 
 # Gemfile
 # [...]
