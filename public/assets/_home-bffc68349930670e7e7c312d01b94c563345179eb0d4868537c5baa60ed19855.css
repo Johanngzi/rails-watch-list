@@ -1,0 +1,97 @@
+/* line 2, app/assets/stylesheets/_home.scss */
+.banner-movie {
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0;
+  text-align: center;
+}
+
+/* line 10, app/assets/stylesheets/_home.scss */
+.banner-movie h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* line 18, app/assets/stylesheets/_home.scss */
+.banner-movie h2 {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 28, app/assets/stylesheets/_home.scss */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-items: center;
+}
+
+/* line 35, app/assets/stylesheets/_home.scss */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* line 45, app/assets/stylesheets/_home.scss */
+.card img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+/* line 53, app/assets/stylesheets/_home.scss */
+.card .text-small {
+  font-size: 14px;
+  margin: 16px 0;
+  color: #555;
+  text-align: center;
+  padding: 0 16px;
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+  /* line 63, app/assets/stylesheets/_home.scss */
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 576px) {
+  /* line 69, app/assets/stylesheets/_home.scss */
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 75, app/assets/stylesheets/_home.scss */
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 81, app/assets/stylesheets/_home.scss */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 87, app/assets/stylesheets/_home.scss */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
