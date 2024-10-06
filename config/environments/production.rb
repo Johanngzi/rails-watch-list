@@ -30,7 +30,7 @@ Rails.application.configure do
   # config.assets.compile = false
 
   config.assets.debug = true
-  config.assets.digest = false
+  config.assets.digest = true
   config.assets.compile = false
 
 
