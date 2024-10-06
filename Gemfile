@@ -12,6 +12,7 @@ gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
 gem "sassc-rails"
+gem 'uglifier', '>= 1.3.0'
 gem 'cloudinary'
 gem 'hotwire-rails'
 

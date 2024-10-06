@@ -31,7 +31,7 @@ Rails.application.configure do
 
   config.assets.debug = true
   config.assets.digest = false
-  config.assets.compile = true
+  config.assets.compile = false
 
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
