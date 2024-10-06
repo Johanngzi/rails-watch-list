@@ -9,7 +9,7 @@ Rails.application.configure do
   config.enable_reloading = true
 
   config.assets.debug = true
-  config.assets.digest = false
+  config.assets.digest = true
   config.assets.compile = true
 
 
