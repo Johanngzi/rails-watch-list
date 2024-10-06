@@ -43,7 +43,12 @@ Rails.application.configure do
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :cloudinary
-  heroku config:set CLOUDINARY_URL=cloudinary://<your_api_key>:<your_api_secret>@dgdtyztpm
+  
+  heroku config:set CLOUDINARY_CLOUD_NAME=dgdtyztpm
+  heroku config:set CLOUDINARY_API_KEY=753587871796867
+  heroku config:set CLOUDINARY_API_SECRET=6LZFOzXRJ9j9grklC09tUIk2MWU
+
+
 
   # Mount Action Cable outside main process or domain.
   # config.action_cable.mount_path = nil
