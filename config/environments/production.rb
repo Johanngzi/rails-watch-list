@@ -32,7 +32,10 @@ Rails.application.configure do
   # config.assets.debug = true
   config.assets.debug = false
   config.assets.digest = true
-  config.assets.compile = false
+  # config.assets.compile = false
+  config.assets.enabled = true
+  config.assets.compile = true # This allows Rails to compile assets on the fly.
+
 
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 

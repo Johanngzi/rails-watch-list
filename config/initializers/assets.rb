@@ -10,3 +10,6 @@ Rails.application.config.assets.version = "1.0"
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
+
+Rails.application.config.assets.debug = true # This can help with debugging.
+Rails.application.config.assets.compile = true # Allows for fallback if assets aren't found.
